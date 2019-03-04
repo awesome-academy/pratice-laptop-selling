@@ -118,3 +118,5 @@ en:
     contact: "Contact"
     mess_create: "Feedback was successfully created."
     mess_destroy: "Feedback was successfully destroyed."
+  update_account: "Update account"
+  edit_profile: "Edit Profile"
