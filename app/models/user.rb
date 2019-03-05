@@ -16,6 +16,9 @@ class User < ApplicationRecord
 
   def current_product? product
     self == product
+    
+  def current_user? user
+    self == user
   end
 
   private

@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   post "/login", to: "sessions#create"
   post "/signup", to: "users#create"
   delete "/logout", to: "sessions#destroy"
+  get "/form", to: "users#form"
   post "/line_item", to: "line_items#create"
   # post "/product", to: "products#create"
   resources :users

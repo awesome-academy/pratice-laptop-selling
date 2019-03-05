@@ -8,3 +8,4 @@ limit_featured: 4
 max_name_feedback: 80
 max_title_feedback: 100
 max_content_feedback: 250
+pages_limit: 4
